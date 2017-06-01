@@ -40,10 +40,10 @@ public class Diagram extends JFrame {
         }
 
         g = this.getGraphics();
-        paintComponent(g);
+        paint(g);
     }
 
-    public void paintComponent(Graphics g) {
+    public void paint(Graphics g) {
         g.setColor(Color.black);
 //        g.drawRect(50,50,rw,rw);
 
